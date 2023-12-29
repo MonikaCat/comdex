@@ -6,12 +6,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	chain "github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/vault/client/cli"
-	vaultKeeper "github.com/comdex-official/comdex/x/vault/keeper"
-	"github.com/comdex-official/comdex/x/vault/types"
+	chain "github.com/MonikaCat/comdex/v5/app"
+	"github.com/MonikaCat/comdex/v5/x/vault/client/cli"
+	vaultKeeper "github.com/MonikaCat/comdex/v5/x/vault/keeper"
+	"github.com/MonikaCat/comdex/v5/x/vault/types"
 
-	"github.com/comdex-official/comdex/testutil/network"
+	"github.com/MonikaCat/comdex/v5/testutil/network"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"
 	pruningtypes "github.com/cosmos/cosmos-sdk/store/pruning/types"

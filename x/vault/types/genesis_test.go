@@ -1,7 +1,7 @@
 package types_test
 
 import (
-	"github.com/comdex-official/comdex/x/vault/types"
+	"github.com/MonikaCat/comdex/v5/x/vault/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

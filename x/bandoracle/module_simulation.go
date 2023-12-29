@@ -8,9 +8,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/comdex-official/comdex/testutil/sample"
-	bandoraclesimulation "github.com/comdex-official/comdex/x/bandoracle/simulation"
-	"github.com/comdex-official/comdex/x/bandoracle/types"
+	"github.com/MonikaCat/comdex/v5/testutil/sample"
+	bandoraclesimulation "github.com/MonikaCat/comdex/v5/x/bandoracle/simulation"
+	"github.com/MonikaCat/comdex/v5/x/bandoracle/types"
 )
 
 // avoid unused import issue.

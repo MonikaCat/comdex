@@ -16,10 +16,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/comdex-official/comdex/x/liquidity/client/cli"
-	"github.com/comdex-official/comdex/x/liquidity/expected"
-	"github.com/comdex-official/comdex/x/liquidity/keeper"
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/client/cli"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/expected"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/keeper"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
 )
 
 var (

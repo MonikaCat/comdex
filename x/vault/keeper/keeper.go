@@ -3,12 +3,12 @@ package keeper
 import (
 	"fmt"
 
+	"github.com/cometbft/cometbft/libs/log"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cometbft/cometbft/libs/log"
 
-	"github.com/comdex-official/comdex/x/vault/expected"
-	"github.com/comdex-official/comdex/x/vault/types"
+	"github.com/MonikaCat/comdex/v5/x/vault/expected"
+	"github.com/MonikaCat/comdex/v5/x/vault/types"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 )
 

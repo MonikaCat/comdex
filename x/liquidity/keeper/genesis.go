@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

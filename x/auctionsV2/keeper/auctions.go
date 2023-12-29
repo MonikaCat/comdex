@@ -1,15 +1,15 @@
 package keeper
 
 import (
-	tokenminttypes "github.com/comdex-official/comdex/x/tokenmint/types"
+	tokenminttypes "github.com/MonikaCat/comdex/v5/x/tokenmint/types"
 	"time"
 
-	utils "github.com/comdex-official/comdex/types"
+	utils "github.com/MonikaCat/comdex/v5/types"
 
-	"github.com/comdex-official/comdex/x/auctionsV2/types"
-	auctionsV2types "github.com/comdex-official/comdex/x/auctionsV2/types"
-	collectortypes "github.com/comdex-official/comdex/x/collector/types"
-	liquidationtypes "github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonikaCat/comdex/v5/x/auctionsV2/types"
+	auctionsV2types "github.com/MonikaCat/comdex/v5/x/auctionsV2/types"
+	collectortypes "github.com/MonikaCat/comdex/v5/x/collector/types"
+	liquidationtypes "github.com/MonikaCat/comdex/v5/x/liquidationsV2/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

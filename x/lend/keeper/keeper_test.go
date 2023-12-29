@@ -4,17 +4,17 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/comdex-official/comdex/x/lend"
+	"github.com/MonikaCat/comdex/v5/x/lend"
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/stretchr/testify/suite"
 
-	chain "github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/lend/keeper"
-	"github.com/comdex-official/comdex/x/lend/types"
+	chain "github.com/MonikaCat/comdex/v5/app"
+	"github.com/MonikaCat/comdex/v5/x/lend/keeper"
+	"github.com/MonikaCat/comdex/v5/x/lend/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

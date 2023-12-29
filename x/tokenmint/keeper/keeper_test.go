@@ -5,22 +5,22 @@ import (
 	"testing"
 	"time"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
 
-	collectorTypes "github.com/comdex-official/comdex/x/collector/types"
+	collectorTypes "github.com/MonikaCat/comdex/v5/x/collector/types"
 
 	"github.com/stretchr/testify/suite"
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	chain "github.com/comdex-official/comdex/app"
-	assetKeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	auctionKeeper "github.com/comdex-official/comdex/x/auction/keeper"
-	collectorKeeper "github.com/comdex-official/comdex/x/collector/keeper"
-	tokenmintKeeper "github.com/comdex-official/comdex/x/tokenmint/keeper"
-	tokenmintTypes "github.com/comdex-official/comdex/x/tokenmint/types"
+	chain "github.com/MonikaCat/comdex/v5/app"
+	assetKeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
+	auctionKeeper "github.com/MonikaCat/comdex/v5/x/auction/keeper"
+	collectorKeeper "github.com/MonikaCat/comdex/v5/x/collector/keeper"
+	tokenmintKeeper "github.com/MonikaCat/comdex/v5/x/tokenmint/keeper"
+	tokenmintTypes "github.com/MonikaCat/comdex/v5/x/tokenmint/types"
 )
 
 type KeeperTestSuite struct {

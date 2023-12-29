@@ -2,13 +2,13 @@ package keeper
 
 import (
 	"fmt"
-	utils "github.com/comdex-official/comdex/types"
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	auctionsV2types "github.com/comdex-official/comdex/x/auctionsV2/types"
-	lendtypes "github.com/comdex-official/comdex/x/lend/types"
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
-	vaulttypes "github.com/comdex-official/comdex/x/vault/types"
+	utils "github.com/MonikaCat/comdex/v5/types"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	auctionsV2types "github.com/MonikaCat/comdex/v5/x/auctionsV2/types"
+	lendtypes "github.com/MonikaCat/comdex/v5/x/lend/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidationsV2/types"
+	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
+	vaulttypes "github.com/MonikaCat/comdex/v5/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

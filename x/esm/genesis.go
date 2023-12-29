@@ -3,8 +3,8 @@ package esm
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/esm/keeper"
-	"github.com/comdex-official/comdex/x/esm/types"
+	"github.com/MonikaCat/comdex/v5/x/esm/keeper"
+	"github.com/MonikaCat/comdex/v5/x/esm/types"
 )
 
 func InitGenesis(ctx sdk.Context, k keeper.Keeper, state *types.GenesisState) {

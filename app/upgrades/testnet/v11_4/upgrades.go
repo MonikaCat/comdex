@@ -1,8 +1,8 @@
 package v11_4 //nolint:revive,stylecheck
 
 import (
-	assetkeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
+	assetkeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"

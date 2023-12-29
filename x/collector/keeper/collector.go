@@ -3,11 +3,11 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	auctiontypes "github.com/comdex-official/comdex/x/auction/types"
-	"github.com/comdex-official/comdex/x/collector/types"
-	lockertypes "github.com/comdex-official/comdex/x/locker/types"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
+	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
+	auctiontypes "github.com/MonikaCat/comdex/v5/x/auction/types"
+	"github.com/MonikaCat/comdex/v5/x/collector/types"
+	lockertypes "github.com/MonikaCat/comdex/v5/x/locker/types"
+	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
 )
 
 // GetAmountFromCollector returns amount from the collector.

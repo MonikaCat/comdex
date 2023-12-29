@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/comdex-official/comdex/x/vault/types"
+	"github.com/MonikaCat/comdex/v5/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

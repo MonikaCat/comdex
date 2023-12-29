@@ -4,6 +4,7 @@ import (
 	"fmt"
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
+	bandoraclemodulekeeper "github.com/MonikaCat/comdex/v5/x/bandoracle/keeper"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
@@ -21,7 +22,6 @@ import (
 	exported "github.com/cosmos/ibc-go/v7/modules/core/exported"
 	ibckeeper "github.com/cosmos/ibc-go/v7/modules/core/keeper"
 	ibctmmigrations "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint/migrations"
-	bandoraclemodulekeeper "github.com/comdex-official/comdex/x/bandoracle/keeper"
 )
 
 func CreateUpgradeHandlerV13(

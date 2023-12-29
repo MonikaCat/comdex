@@ -7,8 +7,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/tokenmint/expected"
-	"github.com/comdex-official/comdex/x/tokenmint/types"
+	"github.com/MonikaCat/comdex/v5/x/tokenmint/expected"
+	"github.com/MonikaCat/comdex/v5/x/tokenmint/types"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 )
 

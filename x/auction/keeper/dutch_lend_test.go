@@ -2,14 +2,14 @@ package keeper_test
 
 import (
 	"fmt"
-	assetTypes "github.com/comdex-official/comdex/x/asset/types"
-	"github.com/comdex-official/comdex/x/auction"
-	auctionKeeper "github.com/comdex-official/comdex/x/auction/keeper"
-	auctionTypes "github.com/comdex-official/comdex/x/auction/types"
-	lendkeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	lendtypes "github.com/comdex-official/comdex/x/lend/types"
-	liquidationTypes "github.com/comdex-official/comdex/x/liquidation/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
+	assetTypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	"github.com/MonikaCat/comdex/v5/x/auction"
+	auctionKeeper "github.com/MonikaCat/comdex/v5/x/auction/keeper"
+	auctionTypes "github.com/MonikaCat/comdex/v5/x/auction/types"
+	lendkeeper "github.com/MonikaCat/comdex/v5/x/lend/keeper"
+	lendtypes "github.com/MonikaCat/comdex/v5/x/lend/types"
+	liquidationTypes "github.com/MonikaCat/comdex/v5/x/liquidation/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

@@ -5,27 +5,27 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	utils "github.com/comdex-official/comdex/types"
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	collectorKeeper "github.com/comdex-official/comdex/x/collector/keeper"
-	lendkeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	"github.com/comdex-official/comdex/x/liquidity"
-	"github.com/comdex-official/comdex/x/liquidity/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
-	rewardsKeeper "github.com/comdex-official/comdex/x/rewards/keeper"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
-	vaultKeeper "github.com/comdex-official/comdex/x/vault/keeper"
+	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
+	utils "github.com/MonikaCat/comdex/v5/types"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	collectorKeeper "github.com/MonikaCat/comdex/v5/x/collector/keeper"
+	lendkeeper "github.com/MonikaCat/comdex/v5/x/lend/keeper"
+	"github.com/MonikaCat/comdex/v5/x/liquidity"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
+	rewardsKeeper "github.com/MonikaCat/comdex/v5/x/rewards/keeper"
+	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
+	vaultKeeper "github.com/MonikaCat/comdex/v5/x/vault/keeper"
 
 	"github.com/stretchr/testify/suite"
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	chain "github.com/comdex-official/comdex/app"
-	assetKeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	lockerKeeper "github.com/comdex-official/comdex/x/locker/keeper"
-	lockerTypes "github.com/comdex-official/comdex/x/locker/types"
+	chain "github.com/MonikaCat/comdex/v5/app"
+	assetKeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
+	lockerKeeper "github.com/MonikaCat/comdex/v5/x/locker/keeper"
+	lockerTypes "github.com/MonikaCat/comdex/v5/x/locker/types"
 )
 
 type KeeperTestSuite struct {

@@ -4,24 +4,24 @@ import (
 	"testing"
 	"time"
 
-	lendkeeper "github.com/comdex-official/comdex/x/lend/keeper"
+	lendkeeper "github.com/MonikaCat/comdex/v5/x/lend/keeper"
 
 	"github.com/stretchr/testify/suite"
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	chain "github.com/comdex-official/comdex/app"
-	assetKeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	"github.com/comdex-official/comdex/x/auction/keeper"
-	"github.com/comdex-official/comdex/x/auction/types"
-	collectKeeper "github.com/comdex-official/comdex/x/collector/keeper"
-	liquidationKeeper "github.com/comdex-official/comdex/x/liquidation/keeper"
-	liquidationTypes "github.com/comdex-official/comdex/x/liquidation/types"
-	marketKeeper "github.com/comdex-official/comdex/x/market/keeper"
-	tokenmintKeeper "github.com/comdex-official/comdex/x/tokenmint/keeper"
-	vaultKeeper "github.com/comdex-official/comdex/x/vault/keeper"
-	vaultTypes "github.com/comdex-official/comdex/x/vault/types"
+	chain "github.com/MonikaCat/comdex/v5/app"
+	assetKeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
+	"github.com/MonikaCat/comdex/v5/x/auction/keeper"
+	"github.com/MonikaCat/comdex/v5/x/auction/types"
+	collectKeeper "github.com/MonikaCat/comdex/v5/x/collector/keeper"
+	liquidationKeeper "github.com/MonikaCat/comdex/v5/x/liquidation/keeper"
+	liquidationTypes "github.com/MonikaCat/comdex/v5/x/liquidation/types"
+	marketKeeper "github.com/MonikaCat/comdex/v5/x/market/keeper"
+	tokenmintKeeper "github.com/MonikaCat/comdex/v5/x/tokenmint/keeper"
+	vaultKeeper "github.com/MonikaCat/comdex/v5/x/vault/keeper"
+	vaultTypes "github.com/MonikaCat/comdex/v5/x/vault/types"
 )
 
 type KeeperTestSuite struct {

@@ -2,16 +2,16 @@ package keeper_test
 
 import (
 	"fmt"
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	assetTypes "github.com/comdex-official/comdex/x/asset/types"
-	auctionsV2types "github.com/comdex-official/comdex/x/auctionsV2/types"
-	collectortypes "github.com/comdex-official/comdex/x/collector/types"
-	lendKeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	lendtypes "github.com/comdex-official/comdex/x/lend/types"
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
-	vaultKeeper1 "github.com/comdex-official/comdex/x/vault/keeper"
-	vaultTypes "github.com/comdex-official/comdex/x/vault/types"
+	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
+	assetTypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	auctionsV2types "github.com/MonikaCat/comdex/v5/x/auctionsV2/types"
+	collectortypes "github.com/MonikaCat/comdex/v5/x/collector/types"
+	lendKeeper "github.com/MonikaCat/comdex/v5/x/lend/keeper"
+	lendtypes "github.com/MonikaCat/comdex/v5/x/lend/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidationsV2/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
+	vaultKeeper1 "github.com/MonikaCat/comdex/v5/x/vault/keeper"
+	vaultTypes "github.com/MonikaCat/comdex/v5/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

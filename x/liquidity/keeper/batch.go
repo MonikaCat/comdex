@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
 )
 
 // ExecuteRequests executes all orders, deposit requests and withdraw requests.

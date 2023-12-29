@@ -9,7 +9,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 
-	"github.com/comdex-official/comdex/x/collector/types"
+	"github.com/MonikaCat/comdex/v5/x/collector/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module.

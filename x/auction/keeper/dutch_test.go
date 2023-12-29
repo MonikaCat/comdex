@@ -1,16 +1,16 @@
 package keeper_test
 
 import (
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	assetTypes "github.com/comdex-official/comdex/x/asset/types"
-	"github.com/comdex-official/comdex/x/auction"
-	auctionKeeper "github.com/comdex-official/comdex/x/auction/keeper"
-	auctionTypes "github.com/comdex-official/comdex/x/auction/types"
-	collectorTypes "github.com/comdex-official/comdex/x/collector/types"
-	liquidationTypes "github.com/comdex-official/comdex/x/liquidation/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
-	vaultKeeper1 "github.com/comdex-official/comdex/x/vault/keeper"
-	vaultTypes "github.com/comdex-official/comdex/x/vault/types"
+	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
+	assetTypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	"github.com/MonikaCat/comdex/v5/x/auction"
+	auctionKeeper "github.com/MonikaCat/comdex/v5/x/auction/keeper"
+	auctionTypes "github.com/MonikaCat/comdex/v5/x/auction/types"
+	collectorTypes "github.com/MonikaCat/comdex/v5/x/collector/types"
+	liquidationTypes "github.com/MonikaCat/comdex/v5/x/liquidation/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
+	vaultKeeper1 "github.com/MonikaCat/comdex/v5/x/vault/keeper"
+	vaultTypes "github.com/MonikaCat/comdex/v5/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

@@ -6,10 +6,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	collectortypes "github.com/comdex-official/comdex/x/collector/types"
-	esmtypes "github.com/comdex-official/comdex/x/esm/types"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
-	"github.com/comdex-official/comdex/x/vault/types"
+	collectortypes "github.com/MonikaCat/comdex/v5/x/collector/types"
+	esmtypes "github.com/MonikaCat/comdex/v5/x/esm/types"
+	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
+	"github.com/MonikaCat/comdex/v5/x/vault/types"
 )
 
 var _ types.MsgServer = msgServer{}

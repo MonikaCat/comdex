@@ -15,7 +15,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	// "github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/comdex-official/comdex/x/auctionsV2/types"
+	"github.com/MonikaCat/comdex/v5/x/auctionsV2/types"
 )
 
 var (

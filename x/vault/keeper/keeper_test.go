@@ -4,20 +4,20 @@ import (
 	"encoding/binary"
 	"testing"
 
-	rewardsKeeper "github.com/comdex-official/comdex/x/rewards/keeper"
+	rewardsKeeper "github.com/MonikaCat/comdex/v5/x/rewards/keeper"
 
-	"github.com/comdex-official/comdex/app/wasm/bindings"
+	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
 	"github.com/stretchr/testify/suite"
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	chain "github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/vault/keeper"
-	"github.com/comdex-official/comdex/x/vault/types"
+	chain "github.com/MonikaCat/comdex/v5/app"
+	"github.com/MonikaCat/comdex/v5/x/vault/keeper"
+	"github.com/MonikaCat/comdex/v5/x/vault/types"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
 )
 
 type KeeperTestSuite struct {

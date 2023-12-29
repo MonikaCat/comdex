@@ -15,7 +15,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	// "github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidationsV2/types"
 )
 
 var (
@@ -182,7 +182,7 @@ func NewCmdSubmitWhitelistingLiquidationProposal() *cobra.Command {
 			}
 
 			txf, err := tx.NewFactoryCLI(clientCtx, cmd.Flags())
-			if err !=nil {
+			if err != nil {
 				return err
 			}
 			txf = txf.WithTxConfig(clientCtx.TxConfig).WithAccountRetriever(clientCtx.AccountRetriever)

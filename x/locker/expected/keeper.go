@@ -3,10 +3,10 @@ package expected
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	collectortypes "github.com/comdex-official/comdex/x/collector/types"
-	esmtypes "github.com/comdex-official/comdex/x/esm/types"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	collectortypes "github.com/MonikaCat/comdex/v5/x/collector/types"
+	esmtypes "github.com/MonikaCat/comdex/v5/x/esm/types"
+	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
 )
 
 type BankKeeper interface {

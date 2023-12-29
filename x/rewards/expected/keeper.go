@@ -1,18 +1,18 @@
 package expected
 
 import (
-	lendtypes "github.com/comdex-official/comdex/x/lend/types"
+	lendtypes "github.com/MonikaCat/comdex/v5/x/lend/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	collectortypes "github.com/comdex-official/comdex/x/collector/types"
-	esmtypes "github.com/comdex-official/comdex/x/esm/types"
-	liquiditytypes "github.com/comdex-official/comdex/x/liquidity/types"
-	lockertypes "github.com/comdex-official/comdex/x/locker/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
-	"github.com/comdex-official/comdex/x/rewards/types"
-	vaulttypes "github.com/comdex-official/comdex/x/vault/types"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	collectortypes "github.com/MonikaCat/comdex/v5/x/collector/types"
+	esmtypes "github.com/MonikaCat/comdex/v5/x/esm/types"
+	liquiditytypes "github.com/MonikaCat/comdex/v5/x/liquidity/types"
+	lockertypes "github.com/MonikaCat/comdex/v5/x/locker/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
+	"github.com/MonikaCat/comdex/v5/x/rewards/types"
+	vaulttypes "github.com/MonikaCat/comdex/v5/x/vault/types"
 )
 
 // AccountKeeper defines the expected account keeper used for simulations (noalias).

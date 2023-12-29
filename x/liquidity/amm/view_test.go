@@ -7,8 +7,8 @@ import (
 	sdkmath "cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
 
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/liquidity/amm"
+	utils "github.com/MonikaCat/comdex/v5/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/amm"
 )
 
 func TestOrderBookView(t *testing.T) {

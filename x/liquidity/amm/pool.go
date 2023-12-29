@@ -6,7 +6,7 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	utils "github.com/comdex-official/comdex/types"
+	utils "github.com/MonikaCat/comdex/v5/types"
 )
 
 var (

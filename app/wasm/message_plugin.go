@@ -3,26 +3,26 @@ package wasm
 import (
 	"encoding/json"
 
-	esmkeeper "github.com/comdex-official/comdex/x/esm/keeper"
-	vaultkeeper "github.com/comdex-official/comdex/x/vault/keeper"
+	esmkeeper "github.com/MonikaCat/comdex/v5/x/esm/keeper"
+	vaultkeeper "github.com/MonikaCat/comdex/v5/x/vault/keeper"
 
-	auctionkeeper "github.com/comdex-official/comdex/x/auction/keeper"
-	liquidationkeeper "github.com/comdex-official/comdex/x/liquidation/keeper"
-	tokenmintkeeper "github.com/comdex-official/comdex/x/tokenmint/keeper"
+	auctionkeeper "github.com/MonikaCat/comdex/v5/x/auction/keeper"
+	liquidationkeeper "github.com/MonikaCat/comdex/v5/x/liquidation/keeper"
+	tokenmintkeeper "github.com/MonikaCat/comdex/v5/x/tokenmint/keeper"
 
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	assetkeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	collectorkeeper "github.com/comdex-official/comdex/x/collector/keeper"
-	liquidityKeeper "github.com/comdex-official/comdex/x/liquidity/keeper"
-	lockerkeeper "github.com/comdex-official/comdex/x/locker/keeper"
-	lockertypes "github.com/comdex-official/comdex/x/locker/types"
-	rewardskeeper "github.com/comdex-official/comdex/x/rewards/keeper"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
+	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
+	assetkeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
+	collectorkeeper "github.com/MonikaCat/comdex/v5/x/collector/keeper"
+	liquidityKeeper "github.com/MonikaCat/comdex/v5/x/liquidity/keeper"
+	lockerkeeper "github.com/MonikaCat/comdex/v5/x/locker/keeper"
+	lockertypes "github.com/MonikaCat/comdex/v5/x/locker/types"
+	rewardskeeper "github.com/MonikaCat/comdex/v5/x/rewards/keeper"
+	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
 )
 
 func CustomMessageDecorator(lockerKeeper lockerkeeper.Keeper, rewardsKeeper rewardskeeper.Keeper,
@@ -564,7 +564,7 @@ func (m *CustomMessenger) ExecuteAddEmissionRewards(ctx sdk.Context, contractAdd
 		if contractAddr.String() != comdex1[1] {
 			return nil, nil, sdkerrors.ErrInvalidAddress
 		}
-	}else if ctx.ChainID() == "comdex-test3" {
+	} else if ctx.ChainID() == "comdex-test3" {
 		if contractAddr.String() != testnet3[1] {
 			return nil, nil, sdkerrors.ErrInvalidAddress
 		}

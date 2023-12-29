@@ -14,7 +14,7 @@ import (
 	// "github.com/cosmos/cosmos-sdk/client/flags"
 	// sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidationsV2/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

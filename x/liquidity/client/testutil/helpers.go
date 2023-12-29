@@ -10,10 +10,10 @@ import (
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
-	"github.com/comdex-official/comdex/x/vault/client/cli"
-	"github.com/comdex-official/comdex/x/vault/types"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
+	"github.com/MonikaCat/comdex/v5/x/vault/client/cli"
+	"github.com/MonikaCat/comdex/v5/x/vault/types"
 )
 
 var commonArgs = []string{

@@ -17,9 +17,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/comdex-official/comdex/x/tokenmint/client/cli"
-	"github.com/comdex-official/comdex/x/tokenmint/keeper"
-	"github.com/comdex-official/comdex/x/tokenmint/types"
+	"github.com/MonikaCat/comdex/v5/x/tokenmint/client/cli"
+	"github.com/MonikaCat/comdex/v5/x/tokenmint/keeper"
+	"github.com/MonikaCat/comdex/v5/x/tokenmint/types"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 	"github.com/cometbft/cometbft/crypto"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	utils "github.com/MonikaCat/comdex/v5/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
 )
 
 var testAddr = sdk.AccAddress(crypto.AddressHash([]byte("test")))

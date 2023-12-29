@@ -9,9 +9,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/comdex-official/comdex/testutil/sample"
-	collectorsimulation "github.com/comdex-official/comdex/x/collector/simulation"
-	"github.com/comdex-official/comdex/x/collector/types"
+	"github.com/MonikaCat/comdex/v5/testutil/sample"
+	collectorsimulation "github.com/MonikaCat/comdex/v5/x/collector/simulation"
+	"github.com/MonikaCat/comdex/v5/x/collector/types"
 )
 
 // avoid unused import issue.

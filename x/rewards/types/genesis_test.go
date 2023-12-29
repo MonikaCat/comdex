@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/comdex-official/comdex/x/rewards/types"
+	"github.com/MonikaCat/comdex/v5/x/rewards/types"
 	"github.com/stretchr/testify/require"
 )
 

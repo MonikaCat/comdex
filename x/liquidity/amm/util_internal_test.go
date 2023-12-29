@@ -6,7 +6,7 @@ import (
 	sdkmath "cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
 
-	utils "github.com/comdex-official/comdex/types"
+	utils "github.com/MonikaCat/comdex/v5/types"
 )
 
 func Test_findFirstTrueCondition(t *testing.T) {

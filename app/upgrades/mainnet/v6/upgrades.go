@@ -1,10 +1,10 @@
 package v6
 
 import (
-	assetkeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
-	lendkeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	"github.com/comdex-official/comdex/x/lend/types"
+	assetkeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	lendkeeper "github.com/MonikaCat/comdex/v5/x/lend/keeper"
+	"github.com/MonikaCat/comdex/v5/x/lend/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"

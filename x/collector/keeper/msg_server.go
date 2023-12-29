@@ -2,7 +2,7 @@ package keeper
 
 import (
 	"context"
-	"github.com/comdex-official/comdex/x/collector/types"
+	"github.com/MonikaCat/comdex/v5/x/collector/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

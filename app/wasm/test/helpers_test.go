@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/comdex-official/comdex/app/wasm/bindings"
-	assetTypes "github.com/comdex-official/comdex/x/asset/types"
-	tokenmintTypes "github.com/comdex-official/comdex/x/tokenmint/types"
+	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
+	assetTypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	tokenmintTypes "github.com/MonikaCat/comdex/v5/x/tokenmint/types"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 
@@ -19,8 +19,8 @@ import (
 	// simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/comdex-official/comdex/app"
-	"github.com/comdex-official/comdex/x/tokenmint/keeper"
+	"github.com/MonikaCat/comdex/v5/app"
+	"github.com/MonikaCat/comdex/v5/x/tokenmint/keeper"
 )
 
 func SetupCustomApp(t *testing.T) (*app.App, *sdk.Context) {

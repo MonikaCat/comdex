@@ -2,12 +2,12 @@ package collector
 
 import (
 	"fmt"
-	"github.com/comdex-official/comdex/x/collector/keeper"
+	"github.com/MonikaCat/comdex/v5/x/collector/keeper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/comdex-official/comdex/x/collector/types"
+	"github.com/MonikaCat/comdex/v5/x/collector/types"
 )
 
 // NewHandler ...

@@ -2,7 +2,7 @@ package cli
 
 import (
 	"fmt"
-	"github.com/comdex-official/comdex/x/collector/types"
+	"github.com/MonikaCat/comdex/v5/x/collector/types"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	sdk "github.com/cosmos/cosmos-sdk/types"

@@ -5,11 +5,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramstypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	assettypes "github.com/comdex-official/comdex/x/asset/types"
+	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
 
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 
-	"github.com/comdex-official/comdex/x/asset/expected"
+	"github.com/MonikaCat/comdex/v5/x/asset/expected"
 )
 
 type Keeper struct {

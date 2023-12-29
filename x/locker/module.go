@@ -17,9 +17,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/comdex-official/comdex/x/locker/client/cli"
-	"github.com/comdex-official/comdex/x/locker/keeper"
-	"github.com/comdex-official/comdex/x/locker/types"
+	"github.com/MonikaCat/comdex/v5/x/locker/client/cli"
+	"github.com/MonikaCat/comdex/v5/x/locker/keeper"
+	"github.com/MonikaCat/comdex/v5/x/locker/types"
 )
 
 var (

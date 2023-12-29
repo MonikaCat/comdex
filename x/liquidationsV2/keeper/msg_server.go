@@ -2,7 +2,7 @@ package keeper
 
 import (
 	"context"
-	"github.com/comdex-official/comdex/x/liquidationsV2/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidationsV2/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"strconv"
 )

@@ -7,8 +7,8 @@ import (
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 
-	rewardskeeper "github.com/comdex-official/comdex/x/rewards/keeper"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
+	rewardskeeper "github.com/MonikaCat/comdex/v5/x/rewards/keeper"
+	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

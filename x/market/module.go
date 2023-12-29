@@ -15,11 +15,11 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	assetkeeper "github.com/comdex-official/comdex/x/asset/keeper"
-	bandkeeper "github.com/comdex-official/comdex/x/bandoracle/keeper"
-	"github.com/comdex-official/comdex/x/market/client/cli"
-	"github.com/comdex-official/comdex/x/market/keeper"
-	"github.com/comdex-official/comdex/x/market/types"
+	assetkeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
+	bandkeeper "github.com/MonikaCat/comdex/v5/x/bandoracle/keeper"
+	"github.com/MonikaCat/comdex/v5/x/market/client/cli"
+	"github.com/MonikaCat/comdex/v5/x/market/keeper"
+	"github.com/MonikaCat/comdex/v5/x/market/types"
 )
 
 var (

@@ -8,10 +8,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/comdex-official/comdex/x/liquidity/amm"
-	"github.com/comdex-official/comdex/x/liquidity/types"
-	rewardstypes "github.com/comdex-official/comdex/x/rewards/types"
-	tokenminttypes "github.com/comdex-official/comdex/x/tokenmint/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/amm"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
+	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
+	tokenminttypes "github.com/MonikaCat/comdex/v5/x/tokenmint/types"
 )
 
 // getNextPoolIdWithUpdate increments pool id by one and set it.

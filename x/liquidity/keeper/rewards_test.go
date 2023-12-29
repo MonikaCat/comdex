@@ -4,9 +4,9 @@ import (
 	"time"
 
 	sdkmath "cosmossdk.io/math"
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/liquidity/types"
-	rewardtypes "github.com/comdex-official/comdex/x/rewards/types"
+	utils "github.com/MonikaCat/comdex/v5/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
+	rewardtypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	_ "github.com/stretchr/testify/suite"

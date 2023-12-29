@@ -7,11 +7,11 @@ import (
 
 	_ "github.com/stretchr/testify/suite"
 
-	"github.com/comdex-official/comdex/app"
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/liquidity"
-	"github.com/comdex-official/comdex/x/liquidity/keeper"
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	"github.com/MonikaCat/comdex/v5/app"
+	utils "github.com/MonikaCat/comdex/v5/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidity"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/keeper"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"

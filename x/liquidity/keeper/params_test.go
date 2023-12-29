@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	utils "github.com/comdex-official/comdex/types"
-	"github.com/comdex-official/comdex/x/liquidity/types"
+	utils "github.com/MonikaCat/comdex/v5/types"
+	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	_ "github.com/stretchr/testify/suite"
 )

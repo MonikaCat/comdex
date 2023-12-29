@@ -1,11 +1,11 @@
 package keeper_test
 
 import (
-	assetTypes "github.com/comdex-official/comdex/x/asset/types"
-	lendkeeper "github.com/comdex-official/comdex/x/lend/keeper"
-	lendtypes "github.com/comdex-official/comdex/x/lend/types"
-	liquidationTypes "github.com/comdex-official/comdex/x/liquidation/types"
-	markettypes "github.com/comdex-official/comdex/x/market/types"
+	assetTypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	lendkeeper "github.com/MonikaCat/comdex/v5/x/lend/keeper"
+	lendtypes "github.com/MonikaCat/comdex/v5/x/lend/types"
+	liquidationTypes "github.com/MonikaCat/comdex/v5/x/liquidation/types"
+	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

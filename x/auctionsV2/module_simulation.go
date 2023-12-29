@@ -1,9 +1,9 @@
 package auctionsV2
 
 import (
-	"github.com/comdex-official/comdex/testutil/sample"
-	newaucsimulation "github.com/comdex-official/comdex/x/auctionsV2/simulation"
-	"github.com/comdex-official/comdex/x/auctionsV2/types"
+	"github.com/MonikaCat/comdex/v5/testutil/sample"
+	newaucsimulation "github.com/MonikaCat/comdex/v5/x/auctionsV2/simulation"
+	"github.com/MonikaCat/comdex/v5/x/auctionsV2/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	simappparams "github.com/cosmos/cosmos-sdk/testutil/sims"
 	sdk "github.com/cosmos/cosmos-sdk/types"
