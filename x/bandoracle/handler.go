@@ -9,8 +9,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/MonikaCat/comdex/v5/x/bandoracle/keeper"
-	"github.com/MonikaCat/comdex/v5/x/bandoracle/types"
+	"github.com/MonikaCat/comdex/v13/x/bandoracle/keeper"
+	"github.com/MonikaCat/comdex/v13/x/bandoracle/types"
 )
 
 // NewHandler ...

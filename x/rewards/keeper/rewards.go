@@ -4,11 +4,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	protobuftypes "github.com/cosmos/gogoproto/types"
 
-	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
-	collectortypes "github.com/MonikaCat/comdex/v5/x/collector/types"
-	esmtypes "github.com/MonikaCat/comdex/v5/x/esm/types"
-	lockertypes "github.com/MonikaCat/comdex/v5/x/locker/types"
-	"github.com/MonikaCat/comdex/v5/x/rewards/types"
+	assettypes "github.com/MonikaCat/comdex/v13/x/asset/types"
+	collectortypes "github.com/MonikaCat/comdex/v13/x/collector/types"
+	esmtypes "github.com/MonikaCat/comdex/v13/x/esm/types"
+	lockertypes "github.com/MonikaCat/comdex/v13/x/locker/types"
+	"github.com/MonikaCat/comdex/v13/x/rewards/types"
 )
 
 // SetReward sets internal rewards for an asset of an app

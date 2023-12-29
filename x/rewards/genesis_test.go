@@ -3,11 +3,11 @@ package rewards_test
 import (
 	"testing"
 
-	"github.com/MonikaCat/comdex/v5/app"
+	"github.com/MonikaCat/comdex/v13/app"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	"github.com/MonikaCat/comdex/v5/x/rewards"
-	"github.com/MonikaCat/comdex/v5/x/rewards/types"
+	"github.com/MonikaCat/comdex/v13/x/rewards"
+	"github.com/MonikaCat/comdex/v13/x/rewards/types"
 	"github.com/stretchr/testify/require"
 )
 

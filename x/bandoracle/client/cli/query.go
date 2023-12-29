@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 
-	"github.com/MonikaCat/comdex/v5/x/bandoracle/types"
+	"github.com/MonikaCat/comdex/v13/x/bandoracle/types"
 )
 
 // CmdFetchPriceResult queries request result by reqID.

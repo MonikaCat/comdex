@@ -3,7 +3,7 @@ package expected
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
+	assettypes "github.com/MonikaCat/comdex/v13/x/asset/types"
 )
 
 type BankKeeper interface {

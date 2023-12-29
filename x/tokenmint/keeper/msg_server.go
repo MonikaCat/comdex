@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/MonikaCat/comdex/v5/x/tokenmint/types"
+	"github.com/MonikaCat/comdex/v13/x/tokenmint/types"
 )
 
 var _ types.MsgServer = msgServer{}

@@ -15,7 +15,7 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/MonikaCat/comdex/v5/x/asset/types"
+	"github.com/MonikaCat/comdex/v13/x/asset/types"
 )
 
 func NewCmdSubmitAddMultipleAssetsProposal() *cobra.Command {

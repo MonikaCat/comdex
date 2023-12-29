@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/MonikaCat/comdex/v5/x/auctionsV2/client/cli"
+	"github.com/MonikaCat/comdex/v13/x/auctionsV2/client/cli"
 	govclient "github.com/cosmos/cosmos-sdk/x/gov/client"
 )
 

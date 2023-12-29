@@ -5,8 +5,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/MonikaCat/comdex/v5/x/bandoracle/keeper"
-	"github.com/MonikaCat/comdex/v5/x/bandoracle/types"
+	"github.com/MonikaCat/comdex/v13/x/bandoracle/keeper"
+	"github.com/MonikaCat/comdex/v13/x/bandoracle/types"
 )
 
 func BeginBlocker(ctx sdk.Context, _ abci.RequestBeginBlock, k keeper.Keeper) {

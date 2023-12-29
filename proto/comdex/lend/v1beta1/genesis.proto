@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "comdex/lend/v1beta1/lend.proto";
 import "comdex/lend/v1beta1/params.proto";
 
-option go_package = "github.com/MonikaCat/comdex/v5/x/lend/types";
+option go_package = "github.com/MonikaCat/comdex/v13/x/lend/types";
 
 message GenesisState {
   repeated BorrowAsset borrowAsset = 1

@@ -35,8 +35,8 @@ Requires [Go 1.20+](https://golang.org/dl/)
 ```shell
 mkdir -p ${GOPATH}/src/github.com/comdex-official/ && \
 cd ${GOPATH}/src/github.com/comdex-official/ && \
-git clone https://github.com/MonikaCat/comdex/v5.git && \
-cd ${GOPATH}/src/github.com/MonikaCat/comdex/v5/ && \
+git clone https://github.com/MonikaCat/comdex/v13.git && \
+cd ${GOPATH}/src/github.com/MonikaCat/comdex/v13/ && \
 make install
 ```
 
@@ -76,10 +76,10 @@ Licensed under the [comdex license](LICENSE).
 
 [![Project Status: Active -- The project has reached a stable, usable
 state and is being actively developed.](https://img.shields.io/badge/repo%20status-Active-green.svg?style=flat-square)](https://www.repostatus.org/#active)
-[![version](https://img.shields.io/github/tag/comdex-official/comdex.svg)](https://github.com/MonikaCat/comdex/v5/releases/latest)
-[![Go Report Card](https://goreportcard.com/badge/github.com/MonikaCat/comdex/v5)](https://goreportcard.com/report/github.com/MonikaCat/comdex/v5)
-[![API Reference](https://godoc.org/github.com/MonikaCat/comdex/v5?status.svg)](https://godoc.org/github.com/MonikaCat/comdex/v5)
-[![GitHub](https://img.shields.io/github/license/comdex-official/comdex.svg)](https://github.com/MonikaCat/comdex/v5/blob/development/LICENSE)
-[![Lines Of Code](https://img.shields.io/tokei/lines/github/comdex-official/comdex?style=flat-square)](https://github.com/MonikaCat/comdex/v5)
+[![version](https://img.shields.io/github/tag/comdex-official/comdex.svg)](https://github.com/MonikaCat/comdex/v13/releases/latest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/MonikaCat/comdex/v13)](https://goreportcard.com/report/github.com/MonikaCat/comdex/v13)
+[![API Reference](https://godoc.org/github.com/MonikaCat/comdex/v13?status.svg)](https://godoc.org/github.com/MonikaCat/comdex/v13)
+[![GitHub](https://img.shields.io/github/license/comdex-official/comdex.svg)](https://github.com/MonikaCat/comdex/v13/blob/development/LICENSE)
+[![Lines Of Code](https://img.shields.io/tokei/lines/github/comdex-official/comdex?style=flat-square)](https://github.com/MonikaCat/comdex/v13)
 [![Twitter Follow](https://img.shields.io/twitter/follow/ComdexOfficial?label=Follow&style=social)](https://twitter.com/ComdexOfficial)
 [![Discord Chat](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.com/invite/7vjPvWKKMT)

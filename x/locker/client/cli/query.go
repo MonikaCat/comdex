@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 
-	"github.com/MonikaCat/comdex/v5/x/locker/types"
+	"github.com/MonikaCat/comdex/v13/x/locker/types"
 )
 
 func queryLockedVault() *cobra.Command {

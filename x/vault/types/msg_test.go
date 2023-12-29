@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/MonikaCat/comdex/v5/x/vault/types"
+	"github.com/MonikaCat/comdex/v13/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

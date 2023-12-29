@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	protobuftypes "github.com/cosmos/gogoproto/types"
 
-	"github.com/MonikaCat/comdex/v5/x/rewards/types"
+	"github.com/MonikaCat/comdex/v13/x/rewards/types"
 )
 
 // EPOCHES

@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/MonikaCat/comdex/v5/x/rewards/types"
+	"github.com/MonikaCat/comdex/v13/x/rewards/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

@@ -1,10 +1,10 @@
 package keeper_test
 
 import (
-	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
-	assetTypes "github.com/MonikaCat/comdex/v5/x/asset/types"
-	auctionTypes "github.com/MonikaCat/comdex/v5/x/auction/types"
-	collectorTypes "github.com/MonikaCat/comdex/v5/x/collector/types"
+	"github.com/MonikaCat/comdex/v13/app/wasm/bindings"
+	assetTypes "github.com/MonikaCat/comdex/v13/x/asset/types"
+	auctionTypes "github.com/MonikaCat/comdex/v13/x/auction/types"
+	collectorTypes "github.com/MonikaCat/comdex/v13/x/collector/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

@@ -3,8 +3,8 @@ package liquidation
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/MonikaCat/comdex/v5/x/liquidation/keeper"
-	"github.com/MonikaCat/comdex/v5/x/liquidation/types"
+	"github.com/MonikaCat/comdex/v13/x/liquidation/keeper"
+	"github.com/MonikaCat/comdex/v13/x/liquidation/types"
 )
 
 func InitGenesis(ctx sdk.Context, k keeper.Keeper, state *types.GenesisState) {

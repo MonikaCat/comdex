@@ -9,7 +9,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 
-	"github.com/MonikaCat/comdex/v5/x/vault/types"
+	"github.com/MonikaCat/comdex/v13/x/vault/types"
 )
 
 func GetQueryCmd() *cobra.Command {

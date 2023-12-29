@@ -8,9 +8,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/MonikaCat/comdex/v5/testutil/sample"
-	esmsimulation "github.com/MonikaCat/comdex/v5/x/esm/simulation"
-	"github.com/MonikaCat/comdex/v5/x/esm/types"
+	"github.com/MonikaCat/comdex/v13/testutil/sample"
+	esmsimulation "github.com/MonikaCat/comdex/v13/x/esm/simulation"
+	"github.com/MonikaCat/comdex/v13/x/esm/types"
 )
 
 // avoid unused import issue

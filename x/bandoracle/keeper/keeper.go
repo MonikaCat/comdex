@@ -6,8 +6,8 @@ import (
 	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
 	host "github.com/cosmos/ibc-go/v7/modules/core/24-host"
 
-	assetkeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
-	"github.com/MonikaCat/comdex/v5/x/bandoracle/expected"
+	assetkeeper "github.com/MonikaCat/comdex/v13/x/asset/keeper"
+	"github.com/MonikaCat/comdex/v13/x/bandoracle/expected"
 
 	"github.com/cometbft/cometbft/libs/log"
 
@@ -16,7 +16,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/MonikaCat/comdex/v5/x/bandoracle/types"
+	"github.com/MonikaCat/comdex/v13/x/bandoracle/types"
 )
 
 type (

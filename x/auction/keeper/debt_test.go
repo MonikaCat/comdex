@@ -3,14 +3,14 @@ package keeper_test
 import (
 	"time"
 
-	"github.com/MonikaCat/comdex/v5/x/auction"
+	"github.com/MonikaCat/comdex/v13/x/auction"
 
-	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
-	auctionKeeper "github.com/MonikaCat/comdex/v5/x/auction/keeper"
-	auctionTypes "github.com/MonikaCat/comdex/v5/x/auction/types"
-	esmtypes "github.com/MonikaCat/comdex/v5/x/esm/types"
-	tokenmintKeeper1 "github.com/MonikaCat/comdex/v5/x/tokenmint/keeper"
-	tokenminttypes "github.com/MonikaCat/comdex/v5/x/tokenmint/types"
+	"github.com/MonikaCat/comdex/v13/app/wasm/bindings"
+	auctionKeeper "github.com/MonikaCat/comdex/v13/x/auction/keeper"
+	auctionTypes "github.com/MonikaCat/comdex/v13/x/auction/types"
+	esmtypes "github.com/MonikaCat/comdex/v13/x/esm/types"
+	tokenmintKeeper1 "github.com/MonikaCat/comdex/v13/x/tokenmint/keeper"
+	tokenminttypes "github.com/MonikaCat/comdex/v13/x/tokenmint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

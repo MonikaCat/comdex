@@ -7,7 +7,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
 
-	"github.com/MonikaCat/comdex/v5/x/bandoracle/types"
+	"github.com/MonikaCat/comdex/v13/x/bandoracle/types"
 )
 
 func (im IBCModule) handleOraclePacket(

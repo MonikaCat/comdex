@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/MonikaCat/comdex/v5/x/collector/types"
+	"github.com/MonikaCat/comdex/v13/x/collector/types"
 	"github.com/stretchr/testify/require"
 )
 

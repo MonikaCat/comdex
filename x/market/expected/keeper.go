@@ -4,10 +4,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
 	ibcchanneltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
+
 	// ibcexported "github.com/cosmos/ibc-go/v7/modules/core/exported"
 
-	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
-	"github.com/MonikaCat/comdex/v5/x/bandoracle/types"
+	assettypes "github.com/MonikaCat/comdex/v13/x/asset/types"
+	"github.com/MonikaCat/comdex/v13/x/bandoracle/types"
 )
 
 type ChannelKeeper interface {

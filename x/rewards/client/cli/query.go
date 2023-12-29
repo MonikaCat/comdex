@@ -13,7 +13,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 
-	"github.com/MonikaCat/comdex/v5/x/rewards/types"
+	"github.com/MonikaCat/comdex/v13/x/rewards/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module.

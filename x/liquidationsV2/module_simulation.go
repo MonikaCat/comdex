@@ -1,9 +1,9 @@
 package liquidationsV2
 
 import (
-	"github.com/MonikaCat/comdex/v5/testutil/sample"
-	newliqsimulation "github.com/MonikaCat/comdex/v5/x/liquidationsV2/simulation"
-	"github.com/MonikaCat/comdex/v5/x/liquidationsV2/types"
+	"github.com/MonikaCat/comdex/v13/testutil/sample"
+	newliqsimulation "github.com/MonikaCat/comdex/v13/x/liquidationsV2/simulation"
+	"github.com/MonikaCat/comdex/v13/x/liquidationsV2/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	simappparams "github.com/cosmos/cosmos-sdk/testutil/sims"
 	sdk "github.com/cosmos/cosmos-sdk/types"

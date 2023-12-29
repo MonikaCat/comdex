@@ -7,8 +7,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
-	"github.com/MonikaCat/comdex/v5/x/locker/types"
+	assettypes "github.com/MonikaCat/comdex/v13/x/asset/types"
+	"github.com/MonikaCat/comdex/v13/x/locker/types"
 )
 
 var _ types.QueryServer = QueryServer{}

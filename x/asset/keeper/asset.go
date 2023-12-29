@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	protobuftypes "github.com/cosmos/gogoproto/types"
 
-	"github.com/MonikaCat/comdex/v5/x/asset/types"
+	"github.com/MonikaCat/comdex/v13/x/asset/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 

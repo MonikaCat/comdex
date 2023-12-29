@@ -4,19 +4,19 @@ import (
 	"testing"
 	"time"
 
-	rewardsKeeper "github.com/MonikaCat/comdex/v5/x/rewards/keeper"
+	rewardsKeeper "github.com/MonikaCat/comdex/v13/x/rewards/keeper"
 
-	collectorKeeper "github.com/MonikaCat/comdex/v5/x/collector/keeper"
+	collectorKeeper "github.com/MonikaCat/comdex/v13/x/collector/keeper"
 
 	"github.com/stretchr/testify/suite"
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	chain "github.com/MonikaCat/comdex/v5/app"
-	assetKeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
-	lockerKeeper "github.com/MonikaCat/comdex/v5/x/locker/keeper"
-	lockerTypes "github.com/MonikaCat/comdex/v5/x/locker/types"
+	chain "github.com/MonikaCat/comdex/v13/app"
+	assetKeeper "github.com/MonikaCat/comdex/v13/x/asset/keeper"
+	lockerKeeper "github.com/MonikaCat/comdex/v13/x/locker/keeper"
+	lockerTypes "github.com/MonikaCat/comdex/v13/x/locker/types"
 )
 
 type KeeperTestSuite struct {

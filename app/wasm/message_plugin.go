@@ -3,26 +3,26 @@ package wasm
 import (
 	"encoding/json"
 
-	esmkeeper "github.com/MonikaCat/comdex/v5/x/esm/keeper"
-	vaultkeeper "github.com/MonikaCat/comdex/v5/x/vault/keeper"
+	esmkeeper "github.com/MonikaCat/comdex/v13/x/esm/keeper"
+	vaultkeeper "github.com/MonikaCat/comdex/v13/x/vault/keeper"
 
-	auctionkeeper "github.com/MonikaCat/comdex/v5/x/auction/keeper"
-	liquidationkeeper "github.com/MonikaCat/comdex/v5/x/liquidation/keeper"
-	tokenmintkeeper "github.com/MonikaCat/comdex/v5/x/tokenmint/keeper"
+	auctionkeeper "github.com/MonikaCat/comdex/v13/x/auction/keeper"
+	liquidationkeeper "github.com/MonikaCat/comdex/v13/x/liquidation/keeper"
+	tokenmintkeeper "github.com/MonikaCat/comdex/v13/x/tokenmint/keeper"
 
 	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
-	assetkeeper "github.com/MonikaCat/comdex/v5/x/asset/keeper"
-	collectorkeeper "github.com/MonikaCat/comdex/v5/x/collector/keeper"
-	liquidityKeeper "github.com/MonikaCat/comdex/v5/x/liquidity/keeper"
-	lockerkeeper "github.com/MonikaCat/comdex/v5/x/locker/keeper"
-	lockertypes "github.com/MonikaCat/comdex/v5/x/locker/types"
-	rewardskeeper "github.com/MonikaCat/comdex/v5/x/rewards/keeper"
-	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
+	"github.com/MonikaCat/comdex/v13/app/wasm/bindings"
+	assetkeeper "github.com/MonikaCat/comdex/v13/x/asset/keeper"
+	collectorkeeper "github.com/MonikaCat/comdex/v13/x/collector/keeper"
+	liquidityKeeper "github.com/MonikaCat/comdex/v13/x/liquidity/keeper"
+	lockerkeeper "github.com/MonikaCat/comdex/v13/x/locker/keeper"
+	lockertypes "github.com/MonikaCat/comdex/v13/x/locker/types"
+	rewardskeeper "github.com/MonikaCat/comdex/v13/x/rewards/keeper"
+	rewardstypes "github.com/MonikaCat/comdex/v13/x/rewards/types"
 )
 
 func CustomMessageDecorator(lockerKeeper lockerkeeper.Keeper, rewardsKeeper rewardskeeper.Keeper,

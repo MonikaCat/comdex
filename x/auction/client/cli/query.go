@@ -9,7 +9,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/spf13/cobra"
 
-	"github.com/MonikaCat/comdex/v5/x/auction/types"
+	"github.com/MonikaCat/comdex/v13/x/auction/types"
 )
 
 func querySurplusAuction() *cobra.Command {

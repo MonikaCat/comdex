@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
+	"github.com/MonikaCat/comdex/v13/x/liquidity/types"
 )
 
 // excConditions returns true when exactly one condition is true.

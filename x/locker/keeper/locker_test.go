@@ -2,12 +2,13 @@ package keeper_test
 
 import (
 	"fmt"
-	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
-	utils "github.com/MonikaCat/comdex/v5/types"
-	assetTypes "github.com/MonikaCat/comdex/v5/x/asset/types"
-	collectortypes "github.com/MonikaCat/comdex/v5/x/collector/types"
-	"github.com/MonikaCat/comdex/v5/x/locker/keeper"
-	lockerTypes "github.com/MonikaCat/comdex/v5/x/locker/types"
+
+	"github.com/MonikaCat/comdex/v13/app/wasm/bindings"
+	utils "github.com/MonikaCat/comdex/v13/types"
+	assetTypes "github.com/MonikaCat/comdex/v13/x/asset/types"
+	collectortypes "github.com/MonikaCat/comdex/v13/x/collector/types"
+	"github.com/MonikaCat/comdex/v13/x/locker/keeper"
+	lockerTypes "github.com/MonikaCat/comdex/v13/x/locker/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

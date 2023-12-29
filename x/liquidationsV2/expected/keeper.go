@@ -1,15 +1,15 @@
 package expected
 
 import (
-	assettypes "github.com/MonikaCat/comdex/v5/x/asset/types"
-	auctiontypes "github.com/MonikaCat/comdex/v5/x/auctionsV2/types"
-	collectortypes "github.com/MonikaCat/comdex/v5/x/collector/types"
-	esmtypes "github.com/MonikaCat/comdex/v5/x/esm/types"
-	lendtypes "github.com/MonikaCat/comdex/v5/x/lend/types"
-	liquidationtypes "github.com/MonikaCat/comdex/v5/x/liquidationsV2/types"
-	markettypes "github.com/MonikaCat/comdex/v5/x/market/types"
-	rewardstypes "github.com/MonikaCat/comdex/v5/x/rewards/types"
-	"github.com/MonikaCat/comdex/v5/x/vault/types"
+	assettypes "github.com/MonikaCat/comdex/v13/x/asset/types"
+	auctiontypes "github.com/MonikaCat/comdex/v13/x/auctionsV2/types"
+	collectortypes "github.com/MonikaCat/comdex/v13/x/collector/types"
+	esmtypes "github.com/MonikaCat/comdex/v13/x/esm/types"
+	lendtypes "github.com/MonikaCat/comdex/v13/x/lend/types"
+	liquidationtypes "github.com/MonikaCat/comdex/v13/x/liquidationsV2/types"
+	markettypes "github.com/MonikaCat/comdex/v13/x/market/types"
+	rewardstypes "github.com/MonikaCat/comdex/v13/x/rewards/types"
+	"github.com/MonikaCat/comdex/v13/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 )

@@ -6,8 +6,8 @@ import (
 	sdkmath "cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
 
-	utils "github.com/MonikaCat/comdex/v5/types"
-	"github.com/MonikaCat/comdex/v5/x/liquidity/amm"
+	utils "github.com/MonikaCat/comdex/v13/types"
+	"github.com/MonikaCat/comdex/v13/x/liquidity/amm"
 )
 
 func newOrder(dir amm.OrderDirection, price sdkmath.LegacyDec, amt sdkmath.Int) amm.Order {

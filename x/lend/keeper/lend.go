@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	protobuftypes "github.com/cosmos/gogoproto/types"
 
-	"github.com/MonikaCat/comdex/v5/x/lend/types"
+	"github.com/MonikaCat/comdex/v13/x/lend/types"
 )
 
 func (k Keeper) SetUserLendIDCounter(ctx sdk.Context, id uint64) {

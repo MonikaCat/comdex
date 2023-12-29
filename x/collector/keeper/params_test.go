@@ -4,8 +4,8 @@ package keeper_test
 //import (
 //	"testing"
 //
-//	testkeeper "github.com/MonikaCat/comdex/v5/testutil/keeper"
-//	"github.com/MonikaCat/comdex/v5/x/collector/types"
+//	testkeeper "github.com/MonikaCat/comdex/v13/testutil/keeper"
+//	"github.com/MonikaCat/comdex/v13/x/collector/types"
 //	"github.com/stretchr/testify/require"
 //)
 //

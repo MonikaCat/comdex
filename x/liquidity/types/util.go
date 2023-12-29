@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/address"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/MonikaCat/comdex/v5/x/liquidity/amm"
-	"github.com/MonikaCat/comdex/v5/x/liquidity/expected"
+	"github.com/MonikaCat/comdex/v13/x/liquidity/amm"
+	"github.com/MonikaCat/comdex/v13/x/liquidity/expected"
 )
 
 type sendCoinsTxKey struct {

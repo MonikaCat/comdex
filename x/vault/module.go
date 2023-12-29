@@ -15,9 +15,9 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/MonikaCat/comdex/v5/x/vault/client/cli"
-	"github.com/MonikaCat/comdex/v5/x/vault/keeper"
-	"github.com/MonikaCat/comdex/v5/x/vault/types"
+	"github.com/MonikaCat/comdex/v13/x/vault/client/cli"
+	"github.com/MonikaCat/comdex/v13/x/vault/keeper"
+	"github.com/MonikaCat/comdex/v13/x/vault/types"
 )
 
 var (

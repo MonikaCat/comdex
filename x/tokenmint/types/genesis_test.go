@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/MonikaCat/comdex/v5/x/tokenmint/types"
+	"github.com/MonikaCat/comdex/v13/x/tokenmint/types"
 	"github.com/stretchr/testify/require"
 )
 

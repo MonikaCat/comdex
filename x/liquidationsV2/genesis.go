@@ -1,8 +1,8 @@
 package liquidationsV2
 
 import (
-	"github.com/MonikaCat/comdex/v5/x/liquidationsV2/keeper"
-	"github.com/MonikaCat/comdex/v5/x/liquidationsV2/types"
+	"github.com/MonikaCat/comdex/v13/x/liquidationsV2/keeper"
+	"github.com/MonikaCat/comdex/v13/x/liquidationsV2/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

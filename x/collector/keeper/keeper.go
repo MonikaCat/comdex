@@ -10,8 +10,8 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/MonikaCat/comdex/v5/x/collector/expected"
-	"github.com/MonikaCat/comdex/v5/x/collector/types"
+	"github.com/MonikaCat/comdex/v13/x/collector/expected"
+	"github.com/MonikaCat/comdex/v13/x/collector/types"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 )
 

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/MonikaCat/comdex/v5/app"
-	v13 "github.com/MonikaCat/comdex/v5/app/upgrades/mainnet/v13"
+	"github.com/MonikaCat/comdex/v13/app"
+	v13 "github.com/MonikaCat/comdex/v13/app/upgrades/mainnet/v13"
 )
 
 type UpgradeTestSuite struct {

@@ -5,9 +5,9 @@ import (
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	expected "github.com/MonikaCat/comdex/v5/x/liquidity/expected"
-	v1liquidity "github.com/MonikaCat/comdex/v5/x/liquidity/legacy/v1"
-	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
+	expected "github.com/MonikaCat/comdex/v13/x/liquidity/expected"
+	v1liquidity "github.com/MonikaCat/comdex/v13/x/liquidity/legacy/v1"
+	"github.com/MonikaCat/comdex/v13/x/liquidity/types"
 )
 
 func MigrateGenericParams(appID uint64, store sdk.KVStore, cdc codec.BinaryCodec) error {

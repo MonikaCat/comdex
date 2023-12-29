@@ -1,10 +1,10 @@
 package v5_0_0 //nolint:revive,stylecheck
 
 import (
-	lendkeeper "github.com/MonikaCat/comdex/v5/x/lend/keeper"
-	"github.com/MonikaCat/comdex/v5/x/lend/types"
-	liquidationkeeper "github.com/MonikaCat/comdex/v5/x/liquidation/keeper"
-	vaultkeeper "github.com/MonikaCat/comdex/v5/x/vault/keeper"
+	lendkeeper "github.com/MonikaCat/comdex/v13/x/lend/keeper"
+	"github.com/MonikaCat/comdex/v13/x/lend/types"
+	liquidationkeeper "github.com/MonikaCat/comdex/v13/x/liquidation/keeper"
+	vaultkeeper "github.com/MonikaCat/comdex/v13/x/vault/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
+	"github.com/MonikaCat/comdex/v13/x/liquidity/types"
 )
 
 func TestPair_Validate(t *testing.T) {

@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	auctiontypes "github.com/MonikaCat/comdex/v5/x/auction/types"
+	auctiontypes "github.com/MonikaCat/comdex/v13/x/auction/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

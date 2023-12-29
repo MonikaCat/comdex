@@ -5,6 +5,7 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+
 	// "time"
 
 	"github.com/CosmWasm/wasmd/x/wasm"
@@ -42,7 +43,7 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 
-	comdex "github.com/MonikaCat/comdex/v5/app"
+	comdex "github.com/MonikaCat/comdex/v13/app"
 )
 
 func NewRootCmd() (*cobra.Command, comdex.EncodingConfig) {

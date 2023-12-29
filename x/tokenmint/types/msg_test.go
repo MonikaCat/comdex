@@ -1,10 +1,11 @@
 package types_test
 
 import (
-	"github.com/MonikaCat/comdex/v5/x/tokenmint/types"
+	"testing"
+
+	"github.com/MonikaCat/comdex/v13/x/tokenmint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 func TestNewMsgCreateRequest(t *testing.T) {

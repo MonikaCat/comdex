@@ -3,13 +3,13 @@ package keeper
 import (
 	"time"
 
-	esmtypes "github.com/MonikaCat/comdex/v5/x/esm/types"
+	esmtypes "github.com/MonikaCat/comdex/v13/x/esm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	auctiontypes "github.com/MonikaCat/comdex/v5/x/auction/types"
-	collectortypes "github.com/MonikaCat/comdex/v5/x/collector/types"
+	auctiontypes "github.com/MonikaCat/comdex/v13/x/auction/types"
+	collectortypes "github.com/MonikaCat/comdex/v13/x/collector/types"
 )
 
 func (k Keeper) DebtActivator(ctx sdk.Context, data collectortypes.AppAssetIdToAuctionLookupTable, killSwitchParams esmtypes.KillSwitchParams, status bool) error {

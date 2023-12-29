@@ -2,8 +2,9 @@ package keeper_test
 
 import (
 	"fmt"
-	utils "github.com/MonikaCat/comdex/v5/types"
-	"github.com/MonikaCat/comdex/v5/x/vault/types"
+
+	utils "github.com/MonikaCat/comdex/v13/types"
+	"github.com/MonikaCat/comdex/v13/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/stretchr/testify/suite"
 )

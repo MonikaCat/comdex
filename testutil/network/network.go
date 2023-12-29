@@ -17,7 +17,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	comdex "github.com/MonikaCat/comdex/v5/app"
+	comdex "github.com/MonikaCat/comdex/v13/app"
 )
 
 type (

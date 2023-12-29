@@ -5,9 +5,9 @@ package keeper_test
 //	"context"
 //	"testing"
 //
-//	keepertest "github.com/MonikaCat/comdex/v5/testutil/keeper"
-//	"github.com/MonikaCat/comdex/v5/x/collector/keeper"
-//	"github.com/MonikaCat/comdex/v5/x/collector/types"
+//	keepertest "github.com/MonikaCat/comdex/v13/testutil/keeper"
+//	"github.com/MonikaCat/comdex/v13/x/collector/keeper"
+//	"github.com/MonikaCat/comdex/v13/x/collector/types"
 //	sdk "github.com/cosmos/cosmos-sdk/types"
 //)
 //

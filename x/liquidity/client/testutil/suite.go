@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	chain "github.com/MonikaCat/comdex/v5/app"
-	liquidityKeeper "github.com/MonikaCat/comdex/v5/x/liquidity/keeper"
-	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
+	chain "github.com/MonikaCat/comdex/v13/app"
+	liquidityKeeper "github.com/MonikaCat/comdex/v13/x/liquidity/keeper"
+	"github.com/MonikaCat/comdex/v13/x/liquidity/types"
 
-	"github.com/MonikaCat/comdex/v5/testutil/network"
+	"github.com/MonikaCat/comdex/v13/testutil/network"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"
 	pruningtypes "github.com/cosmos/cosmos-sdk/store/pruning/types"

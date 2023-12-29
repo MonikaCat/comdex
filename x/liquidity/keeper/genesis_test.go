@@ -6,9 +6,9 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	utils "github.com/MonikaCat/comdex/v5/types"
-	"github.com/MonikaCat/comdex/v5/x/liquidity"
-	"github.com/MonikaCat/comdex/v5/x/liquidity/types"
+	utils "github.com/MonikaCat/comdex/v13/types"
+	"github.com/MonikaCat/comdex/v13/x/liquidity"
+	"github.com/MonikaCat/comdex/v13/x/liquidity/types"
 )
 
 func (s *KeeperTestSuite) TestDefaultGenesis() {

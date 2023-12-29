@@ -3,8 +3,9 @@ package cli
 import (
 	"context"
 	"fmt"
-	"github.com/cosmos/cosmos-sdk/client/flags"
 	"strconv"
+
+	"github.com/cosmos/cosmos-sdk/client/flags"
 
 	// "strings"
 
@@ -14,7 +15,7 @@ import (
 	// "github.com/cosmos/cosmos-sdk/client/flags"
 	// sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/MonikaCat/comdex/v5/x/auctionsV2/types"
+	"github.com/MonikaCat/comdex/v13/x/auctionsV2/types"
 )
 
 func GetQueryCmd(queryRoute string) *cobra.Command {

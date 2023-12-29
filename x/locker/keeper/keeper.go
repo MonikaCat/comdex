@@ -9,8 +9,8 @@ import (
 
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/MonikaCat/comdex/v5/x/locker/expected"
-	"github.com/MonikaCat/comdex/v5/x/locker/types"
+	"github.com/MonikaCat/comdex/v13/x/locker/expected"
+	"github.com/MonikaCat/comdex/v13/x/locker/types"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 )
 

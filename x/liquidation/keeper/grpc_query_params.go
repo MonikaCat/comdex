@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/MonikaCat/comdex/v5/x/liquidation/types"
+	"github.com/MonikaCat/comdex/v13/x/liquidation/types"
 )
 
 func (k Keeper) Params(c context.Context, req *types.QueryLiquidationParamsRequest) (*types.QueryLiquidationParamsResponse, error) {

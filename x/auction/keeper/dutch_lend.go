@@ -6,13 +6,13 @@ import (
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	lendtypes "github.com/MonikaCat/comdex/v5/x/lend/types"
-	liquidationtypes "github.com/MonikaCat/comdex/v5/x/liquidation/types"
+	lendtypes "github.com/MonikaCat/comdex/v13/x/lend/types"
+	liquidationtypes "github.com/MonikaCat/comdex/v13/x/liquidation/types"
 
-	utils "github.com/MonikaCat/comdex/v5/types"
+	utils "github.com/MonikaCat/comdex/v13/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	auctiontypes "github.com/MonikaCat/comdex/v5/x/auction/types"
+	auctiontypes "github.com/MonikaCat/comdex/v13/x/auction/types"
 )
 
 func (k Keeper) LendDutchActivator(ctx sdk.Context, lockedVault liquidationtypes.LockedVault) error {

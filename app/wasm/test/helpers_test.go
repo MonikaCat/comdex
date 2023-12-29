@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MonikaCat/comdex/v5/app/wasm/bindings"
-	assetTypes "github.com/MonikaCat/comdex/v5/x/asset/types"
-	tokenmintTypes "github.com/MonikaCat/comdex/v5/x/tokenmint/types"
+	"github.com/MonikaCat/comdex/v13/app/wasm/bindings"
+	assetTypes "github.com/MonikaCat/comdex/v13/x/asset/types"
+	tokenmintTypes "github.com/MonikaCat/comdex/v13/x/tokenmint/types"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 
@@ -16,11 +16,12 @@ import (
 	"github.com/cometbft/cometbft/crypto"
 	"github.com/cometbft/cometbft/crypto/ed25519"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
+
 	// simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/MonikaCat/comdex/v5/app"
-	"github.com/MonikaCat/comdex/v5/x/tokenmint/keeper"
+	"github.com/MonikaCat/comdex/v13/app"
+	"github.com/MonikaCat/comdex/v13/x/tokenmint/keeper"
 )
 
 func SetupCustomApp(t *testing.T) (*app.App, *sdk.Context) {
